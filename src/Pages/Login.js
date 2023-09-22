@@ -1,6 +1,5 @@
-import React, {useCallback, useContext} from "react"
-import {Link, useNavigate} from "react-router-dom";
-import db from "../firebase";
+import React from "react"
+import {useNavigate} from "react-router-dom";
 import {signInWithEmailAndPassword, getAuth} from 'firebase/auth'
 import { useState } from "react";
 import { toast } from "react-toastify";
